@@ -5,11 +5,11 @@ Para a instalação em linux o compilador gcc já vem instalado basta verificar 
 Em Windows se faz necessário a instalação do MinGW, neste repositório existe o instalador mingw-get-setup.exe , mas você pode encontrá=lo em https://osdn.net/projects/mingw/releases/
 Uma vez instalado é necessário Abrir o Painel de Controle, Abrir "Editar as Variaveis de Ambiente do Sistema" , clicar em "Variaveis do Sistema", procurar pela variavel Path e adicionar em seu contéudo o caminho "C:\MinGW\bin".
 
-A preparação do VSCode passa pela instalação de 3 Extenções:
+A preparação do VSCode passa pela instalação de 3 Extensões:
 C/C++ da Microsoft
 C/C++ Compile Run de Danielpinto8zz6
 Code Runner de JunHan
-Uma vez instalado estas extenções crie um novo arquivo.c e digite:
+Uma vez instalado estas extensões crie um novo arquivo.c e digite:
 
 #include <iostream>
 int main(){
